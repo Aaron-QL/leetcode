@@ -10,7 +10,3 @@ int reverse(int x){
     } while (x /= 10);
     return (val > INT_MAX || val < INT_MIN) ? 0 : val;
 }
-
-int main() {
-    printf("%d\n", reverse(-1233213213121123));
-}
