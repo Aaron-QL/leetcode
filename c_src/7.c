@@ -1,4 +1,3 @@
-#include <stdio.h>
 
 int reverse(int x){
     long val = 0;
