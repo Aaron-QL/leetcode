@@ -23,18 +23,14 @@ char *divideAndConquer(char **strs, int left, int right)
 
 char *compare(char *s1, char *s2)
 {
-    int len = strlen(s1) < strlen(s2) ? strlen(s1) : strlen(s2);
-    char *p = malloc((len + 1) * sizeof(char));
-    char *pp = p;
+    char *p = s1;
     while (*s1 == *s2) {
-        if (*s1 != '\0') {
-            *pp++ = *s1;
-        } else {
+        if (*s1 == '\0') {
             break;
         }
         s1++;
         s2++;
     }
-    *pp = '\0';
+    *s1 = '\0';
     return p;
 }
