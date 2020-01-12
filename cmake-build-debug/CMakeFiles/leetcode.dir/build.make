@@ -57,42 +57,42 @@ include CMakeFiles/leetcode.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/leetcode.dir/flags.make
 
-CMakeFiles/leetcode.dir/src/main.c.o: CMakeFiles/leetcode.dir/flags.make
-CMakeFiles/leetcode.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qinlong/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/leetcode.dir/src/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/leetcode.dir/src/main.c.o   -c /Users/qinlong/leetcode/src/main.c
+CMakeFiles/leetcode.dir/main.c.o: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/main.c.o: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qinlong/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/leetcode.dir/main.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/leetcode.dir/main.c.o   -c /Users/qinlong/leetcode/main.c
 
-CMakeFiles/leetcode.dir/src/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leetcode.dir/src/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/qinlong/leetcode/src/main.c > CMakeFiles/leetcode.dir/src/main.c.i
+CMakeFiles/leetcode.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leetcode.dir/main.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/qinlong/leetcode/main.c > CMakeFiles/leetcode.dir/main.c.i
 
-CMakeFiles/leetcode.dir/src/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leetcode.dir/src/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/qinlong/leetcode/src/main.c -o CMakeFiles/leetcode.dir/src/main.c.s
+CMakeFiles/leetcode.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leetcode.dir/main.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/qinlong/leetcode/main.c -o CMakeFiles/leetcode.dir/main.c.s
 
-CMakeFiles/leetcode.dir/src/test.c.o: CMakeFiles/leetcode.dir/flags.make
-CMakeFiles/leetcode.dir/src/test.c.o: ../src/test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qinlong/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/leetcode.dir/src/test.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/leetcode.dir/src/test.c.o   -c /Users/qinlong/leetcode/src/test.c
+CMakeFiles/leetcode.dir/c_src/20.c.o: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/c_src/20.c.o: ../c_src/20.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qinlong/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/leetcode.dir/c_src/20.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/leetcode.dir/c_src/20.c.o   -c /Users/qinlong/leetcode/c_src/20.c
 
-CMakeFiles/leetcode.dir/src/test.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leetcode.dir/src/test.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/qinlong/leetcode/src/test.c > CMakeFiles/leetcode.dir/src/test.c.i
+CMakeFiles/leetcode.dir/c_src/20.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/leetcode.dir/c_src/20.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/qinlong/leetcode/c_src/20.c > CMakeFiles/leetcode.dir/c_src/20.c.i
 
-CMakeFiles/leetcode.dir/src/test.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leetcode.dir/src/test.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/qinlong/leetcode/src/test.c -o CMakeFiles/leetcode.dir/src/test.c.s
+CMakeFiles/leetcode.dir/c_src/20.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/leetcode.dir/c_src/20.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/qinlong/leetcode/c_src/20.c -o CMakeFiles/leetcode.dir/c_src/20.c.s
 
 # Object files for target leetcode
 leetcode_OBJECTS = \
-"CMakeFiles/leetcode.dir/src/main.c.o" \
-"CMakeFiles/leetcode.dir/src/test.c.o"
+"CMakeFiles/leetcode.dir/main.c.o" \
+"CMakeFiles/leetcode.dir/c_src/20.c.o"
 
 # External object files for target leetcode
 leetcode_EXTERNAL_OBJECTS =
 
-leetcode: CMakeFiles/leetcode.dir/src/main.c.o
-leetcode: CMakeFiles/leetcode.dir/src/test.c.o
+leetcode: CMakeFiles/leetcode.dir/main.c.o
+leetcode: CMakeFiles/leetcode.dir/c_src/20.c.o
 leetcode: CMakeFiles/leetcode.dir/build.make
 leetcode: CMakeFiles/leetcode.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qinlong/leetcode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable leetcode"

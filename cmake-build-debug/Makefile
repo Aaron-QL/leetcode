@@ -123,59 +123,59 @@ leetcode/fast:
 	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
 
-src/main.o: src/main.c.o
+c_src/20.o: c_src/20.c.o
 
-.PHONY : src/main.o
-
-# target to build an object file
-src/main.c.o:
-	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/src/main.c.o
-.PHONY : src/main.c.o
-
-src/main.i: src/main.c.i
-
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.c.i:
-	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/src/main.c.i
-.PHONY : src/main.c.i
-
-src/main.s: src/main.c.s
-
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.c.s:
-	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/src/main.c.s
-.PHONY : src/main.c.s
-
-src/test.o: src/test.c.o
-
-.PHONY : src/test.o
+.PHONY : c_src/20.o
 
 # target to build an object file
-src/test.c.o:
-	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/src/test.c.o
-.PHONY : src/test.c.o
+c_src/20.c.o:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/c_src/20.c.o
+.PHONY : c_src/20.c.o
 
-src/test.i: src/test.c.i
+c_src/20.i: c_src/20.c.i
 
-.PHONY : src/test.i
+.PHONY : c_src/20.i
 
 # target to preprocess a source file
-src/test.c.i:
-	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/src/test.c.i
-.PHONY : src/test.c.i
+c_src/20.c.i:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/c_src/20.c.i
+.PHONY : c_src/20.c.i
 
-src/test.s: src/test.c.s
+c_src/20.s: c_src/20.c.s
 
-.PHONY : src/test.s
+.PHONY : c_src/20.s
 
 # target to generate assembly for a file
-src/test.c.s:
-	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/src/test.c.s
-.PHONY : src/test.c.s
+c_src/20.c.s:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/c_src/20.c.s
+.PHONY : c_src/20.c.s
+
+main.o: main.c.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.c.o:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/main.c.o
+.PHONY : main.c.o
+
+main.i: main.c.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	$(MAKE) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... leetcode"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
-	@echo "... src/test.o"
-	@echo "... src/test.i"
-	@echo "... src/test.s"
+	@echo "... c_src/20.o"
+	@echo "... c_src/20.i"
+	@echo "... c_src/20.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

@@ -6,23 +6,5 @@
 
 #IncludeRegexTransform: 
 
-/Users/qinlong/leetcode/include/my.h
-stdio.h
--
-string.h
--
-stdlib.h
--
-math.h
--
-stdint.h
--
-limits.h
--
-sys/param.h
--
-
-/Users/qinlong/leetcode/src/test.c
-../include/my.h
-/Users/qinlong/leetcode/include/my.h
+/Users/qinlong/leetcode/main.c
 

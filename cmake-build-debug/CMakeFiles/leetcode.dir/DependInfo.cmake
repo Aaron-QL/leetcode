@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/qinlong/leetcode/src/main.c" "/Users/qinlong/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/src/main.c.o"
-  "/Users/qinlong/leetcode/src/test.c" "/Users/qinlong/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/src/test.c.o"
+  "/Users/qinlong/leetcode/c_src/20.c" "/Users/qinlong/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/c_src/20.c.o"
+  "/Users/qinlong/leetcode/main.c" "/Users/qinlong/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

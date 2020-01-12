@@ -5,3 +5,4 @@
 #include <stdint.h>
 #include <limits.h>
 #include <sys/param.h>
+#include <stdbool.h>
