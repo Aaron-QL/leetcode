@@ -1,10 +1,11 @@
 #include "../include/my.h"
 
 char* change(char* ret) {
-    char* ret_temp = (char *) malloc(sizeof(char) * 1000);
-    int count = 1,  j = 0;
+    char* ret_temp = (char *) malloc(sizeof(char) * 5000);
+    int count = 1;
     char flag = ret[0];
-    for (int i = 1; i < strlen(ret); ++i) {
+    int j = 0;
+    for (int i = 1; i < strlen(ret); i++) {
         if (ret[i] == flag) {
             count++;
         } else {
@@ -18,13 +19,12 @@ char* change(char* ret) {
     return ret_temp;
 }
 
-char * countAndSay(int n){
-    char* p = (char *) malloc(sizeof(char) * 1000);
-    p[0] = '1';
-    p[1] = '\0';
-    for (int i = 1; i <= n; i++) {
-        p = change(p);
+char *countAndSay(int n) {
+    char *ret = (char *) malloc(sizeof(char) * 5000);
+    ret[0] = '1';
+    ret[1] = '\0';
+    for (int i = 1; i < n; i++) {
+        ret = change(ret);
     }
-
-    return p;
+    return ret;
 }
