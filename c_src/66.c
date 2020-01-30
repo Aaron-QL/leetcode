@@ -1,3 +1,4 @@
+#include "../include/my.h"
 
 int* plusOne(int* digits, int digitsSize, int* returnSize)
 {

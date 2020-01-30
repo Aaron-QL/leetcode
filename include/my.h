@@ -6,3 +6,6 @@
 #include <limits.h>
 #include <sys/param.h>
 #include <stdbool.h>
+
+
+char *addBinary(char *, char*);
