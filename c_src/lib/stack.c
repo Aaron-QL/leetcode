@@ -80,11 +80,3 @@ elementType pop(Stack *s)
 
     return e;
 }
-
-int main(void)
-{
-    Stack* s = createStack(6);
-
-
-    return 0;
-}
