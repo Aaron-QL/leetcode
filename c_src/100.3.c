@@ -14,12 +14,12 @@ bool check(struct TreeNode* p, struct TreeNode* q)
 
 bool isSameTree(struct TreeNode* p, struct TreeNode* q)
 {
-    Stack* s = createStack(10);
+    Stack* s = createStack(sizeof(struct TreeNode));
     push(s, p);
     push(s, q);
     while (!isEmpty(s)) {
-        p = pop(s);
-        q = pop(s);
+        p = (struct TreeNode*) pop(s);
+        q = (struct TreeNode*) pop(s);
         if (!check(p, q)) {
             return false;
         }
