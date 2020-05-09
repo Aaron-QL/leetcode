@@ -1,4 +1,8 @@
-package leetcode
+package main
+
+/**
+ * Definition for singly-linked list.
+ */
 
 type ListNode struct {
 	Val  int
@@ -6,41 +10,26 @@ type ListNode struct {
 }
 
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
-	dummy := ListNode{0, nil}
-	carry := 0
-	current := &dummy
-	for l1 != nil || l2 != nil {
-		var x, y int
-		if l1 == nil {
-			x = 0
-		} else {
-			x = l1.Val
-		}
-
-		if l2 == nil {
-			y = 0
-		} else {
-			y = l2.Val
-		}
-
-		sum := x + y + carry
-
-		current.Next = &ListNode{sum % 10, nil}
-		carry = sum / 10
-
-		current = current.Next
-
-		if l1 != nil {
-			l1 = l1.Next
-		}
-
-		if l2 != nil {
-			l2 = l2.Next
-		}
-	}
-
-	if carry != 0 {
-		current.Next = &ListNode{1, nil}
-	}
-	return dummy.Next
+    init := ListNode{}
+    carry := 0
+    cur := &init
+    for l1 != nil || l2 != nil {
+        x, y := 0, 0
+        if l1 != nil {
+            x = l1.Val
+            l1 = l1.Next
+        }
+        if l2 != nil {
+            y = l2.Val
+            l2 = l2.Next
+        }
+        sum := x + y + carry
+        cur.Next = &ListNode{sum % 10, nil}
+        cur = cur.Next
+        carry = sum / 10
+    }
+    if carry > 0 {
+        cur.Next = &ListNode{1, nil}
+    }
+    return init.Next
 }

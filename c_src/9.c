@@ -4,6 +4,7 @@
 #define true 1
 typedef char bool;
 
+
 bool isPalindrome(int x)
 {
     if (x < 0 || (x % 10 == 0 && x != 0)) {
@@ -18,6 +19,7 @@ bool isPalindrome(int x)
 
     return x == revertedNumber || x == revertedNumber / 10;
 }
+
 
 int main() {
     printf("%d\n", isPalindrome(10));

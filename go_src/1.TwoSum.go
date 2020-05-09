@@ -1,4 +1,4 @@
-package leetcode
+package main
 
 func twoSum1(nums []int, target int) []int {
 	for k1, v1 := range nums {
