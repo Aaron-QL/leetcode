@@ -1,10 +1,9 @@
-
 int convert(char);
 
 int romanToInt(char * s){
     int ans = 0;
     int v1, v2, temp;
-    for (int i = 0; s[i] != '\0'; i++) {
+    for (int i = 0; s[i] != NULL; i++) {
         v1 = convert(s[i]);
         v2 = convert(s[i+1]);
         if (v1 < v2) {
