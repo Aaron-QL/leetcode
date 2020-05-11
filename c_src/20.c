@@ -6,7 +6,6 @@ int len;
 
 char enqueue(char);
 char dequeue();
-bool isValid(char *);
 
 
 bool isValid(char * s){
