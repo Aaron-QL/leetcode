@@ -11,7 +11,7 @@ int check(char* s1, char* s2, int len)
     return 1;
 }
 
-int myStrStr(char * haystack, char * needle)
+int strStr(char * haystack, char * needle)
 {
     int len1 = strlen(haystack);
     int len2 = strlen(needle);

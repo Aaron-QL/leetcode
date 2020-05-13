@@ -1,5 +1,6 @@
 #include "../include/my.h"
 
+
 int removeDuplicates(int* nums, int numsSize){
     if (numsSize < 2) {
         return numsSize;
@@ -11,5 +12,5 @@ int removeDuplicates(int* nums, int numsSize){
         }
     }
 
-    return i;
+    return i + 1;
 }
