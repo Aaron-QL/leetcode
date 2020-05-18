@@ -19,8 +19,8 @@ char* change(char* ret) {
     return ret_temp;
 }
 
-char *countAndSay(int n) {
-    char *ret = (char *) malloc(sizeof(char) * 5000);
+char* countAndSay(int n) {
+    char *ret = (char *) malloc(sizeof(char) * 500);
     ret[0] = '1';
     ret[1] = '\0';
     for (int i = 1; i < n; i++) {
