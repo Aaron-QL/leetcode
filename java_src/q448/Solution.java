@@ -11,7 +11,6 @@ public class Solution {
             int index = Math.abs(nums[i]) - 1;
             nums[index] = nums[index] > 0 ? -nums[index] : nums[index];
         }
-        LinkedList
         ArrayList<Integer> al = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             if (nums[i] > 0) {
